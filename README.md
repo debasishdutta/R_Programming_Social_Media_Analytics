@@ -12,13 +12,13 @@ Note:
 
 2. If user want to mine textual information from any Twitter handles then user must use facebook_extraction function. This function takes three arguments: Names of Twitter Handles As Character Vector (without @). Please set up your twitter consumer and access credentials before you proceed with the code. You will be requiring below four parameters: 
 
-  consumer_key <- "aaaa" 
+      consumer_key <- "aaaa" 
   
-  consumer_secret <- "bbbb" 
+      consumer_secret <- "bbbb" 
   
-  access_token <- "cccc" 
+      access_token <- "cccc" 
   
-  access_secret <- "dddd" 
+      access_secret <- "dddd" 
   
 Kindly supply your arguments in Twitter Extraction.R code (line no 22-25). 
   
@@ -34,13 +34,13 @@ Steps For Execution:
 4. Load these files using following commands: 
 
 
-source("Facebook Data Extraction.R") 
+    source("Facebook Data Extraction.R") 
 
-source(“Twitter Extraction.R”) 
+    source(“Twitter Extraction.R”) 
 
-source(“Sentiment Analysis_Dictionary Approach.R”) 
+    source(“Sentiment Analysis_Dictionary Approach.R”) 
 
-source(“Sentiment Analytics_Non Dictionary Approach.R”)
+    source(“Sentiment Analytics_Non Dictionary Approach.R”)
 
 5. Execute each user defined functions following the input parameters stated above. 
 
