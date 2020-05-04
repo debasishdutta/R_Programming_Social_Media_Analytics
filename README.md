@@ -13,10 +13,14 @@ Note:
 2. If user want to mine textual information from any Twitter handles then user must use facebook_extraction function. This function takes three arguments: Names of Twitter Handles As Character Vector (without @). Please set up your twitter consumer and access credentials before you proceed with the code. You will be requiring below four parameters: 
 
   consumer_key <- "aaaa" 
+  
   consumer_secret <- "bbbb" 
+  
   access_token <- "cccc" 
+  
   access_secret <- "dddd" 
-  Kindly supply your arguments in Twitter Extraction.R code (line no 22-25). 
+  
+Kindly supply your arguments in Twitter Extraction.R code (line no 22-25). 
   
   3. There are two approaches of Sentiment Analysis included in this package. One is Non-Dictionary Approach using syuzhet package. This is more robust approach as it classify every sentence in to a set of emotion along with overall sentiment score. User must use sentiment_scoring function for this. This function takes the data frame which contains textual extracts from Facebook/ Twitter and column name of the data frame where textual information is stored. 
   
@@ -29,9 +33,13 @@ Steps For Execution:
 3. Copy Positive and Negative word dictionary in to the current working directory of R session. 
 4. Load these files using following commands: 
 
+
 source("Facebook Data Extraction.R") 
+
 source(“Twitter Extraction.R”) 
+
 source(“Sentiment Analysis_Dictionary Approach.R”) 
+
 source(“Sentiment Analytics_Non Dictionary Approach.R”)
 
 5. Execute each user defined functions following the input parameters stated above. 
